@@ -1,5 +1,5 @@
 ## Setup Typescript
-Cài đặt Typescript
+**Cài đặt Typescript**
 ```bash
 nvm use 18.15.0
 
@@ -15,8 +15,20 @@ npx tsc index.ts # biên dịch file index.ts sang index.js
 npx ts-node index.ts # biên dịch ra run file index.ts
 ```
 
-Config format with Prettier tại:
+**Config format with Prettier tại:**
 > https://prettier.io/playground
+
+**Setup JEST test**
+```bash
+# using yarn
+yarn add --dev jest typescript ts-jest @types/jest
+yarn ts-jest config:init
+```
+
+**Khởi tạo file tsconfig.json mặc định**
+```bash
+tsc --init
+```
 
 ```json
 {
